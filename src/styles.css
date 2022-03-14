@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+html{
+    scroll-behavior: smooth;
+}
+
+.fs-54{
+    font-size: 54pt;
+}
+.fs-18{
+    font-size: 18pt;
+}
+.btn-roxo2{
+    background-color: #907ad6;
+}
+
+.btn-vermelho{
+    background-color: #f45b69;
+}
+
+.text-a{
+    color: #001d3d;
+}
+.text-a2{
+    color: #006d77
+}
+.text-v{
+    color: #f45b69;
+}
+.text-r{
+    color: #907ad6;
+}
