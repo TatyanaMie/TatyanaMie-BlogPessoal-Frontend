@@ -15,22 +15,22 @@ export class AuthService {
   ) { }
 
   entrar(usuarioLogin: UsuarioLogin): Observable<UsuarioLogin>{
-    return this.http.post<UsuarioLogin>('https://blogpessoaltatyana.herokuapp.com/usuarios/logar',usuarioLogin)
+    return this.http.post<UsuarioLogin>('http://localhost:8080/usuarios/logar',usuarioLogin)
 
   }
 
   cadastrar(usuario:Usuario): Observable<Usuario>{
-    return this.http.post<Usuario>('https://blogpessoaltatyana.herokuapp.com/usuarios/cadastrar',usuario)
+    return this.http.post<Usuario>('http://localhost:8080/usuarios/cadastrar',usuario)
 
   }
 
   atualizar(usuario: Usuario): Observable<Usuario>{
-    return this.http.put<Usuario>('https://blogpessoaltatyana.herokuapp.com/usuarios/atualizar', usuario)
+    return this.http.put<Usuario>('http://localhost:8080/usuarios/atualizar', usuario)
 
   }
 
   getByIdUsuario(id: number): Observable<Usuario>{
-    return this.http.get<Usuario>(`https://blogpessoaltatyana.herokuapp.com/usuarios/${id}`)
+    return this.http.get<Usuario>(`http://localhost:8080/usuarios/${id}`)
   }
 
   logado(){

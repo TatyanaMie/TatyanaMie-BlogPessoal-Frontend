@@ -22,11 +22,11 @@ export class AlertasService {
   }
 
   showAlertSuccess(message:string){
-    this;this.showAlert(message,'success')
+    this.showAlert(message,'success')
   }
 
   showAlertInfo(message: string){
-    this.showAlert(message, 'info')
+    this.showAlert(message,'info')
   }
 
 
