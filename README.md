@@ -1,10 +1,29 @@
-# Blog Pessoal
 <div align="center">
+
+# Blog Pessoal
+<br>
 <img height="300 px" width= "750px" src= "https://user-images.githubusercontent.com/95664189/158499036-e6d2e6e9-8700-4c75-8d12-92ae431cc57f.png" >
 </div>
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.4.
 
+<div align="center">
+  
+# Sobre o projeto
+  
+</div>
+O Blog Pessoal é um projeto desenvolvido no Bootcamp da Generation Brasil, com o desenvolvimento tanto do Front-end quanto do Back-end (https://github.com/TatyanaMie/TatyanaMie-BlogPessoal-Backend).
+No Blog é possível realizar o cadastro de um usuário, efetuar o login e realizar uma nova postagem vinculada a um tema.
+Caso não exista o tema desejado, é possível cadastrar um novo tema. 
+Na página inicial é possível visualizar todas as postagens (aba "Todas as postagens"), apenas as postagens do usuário logado (aba “Minhas postagens”) e as postagens por tema (aba “Postagem por temas”). 
+Também é possível editar as informações do usuário por meio do ícone do menu localizado ao lado do nome do usuário.
+
+
+
+<div align="center">
+  
 # Tecnologias Utilizadas
+  
+</div>
+
 <div align="center"> Front-end </div>
 
 <div style="display: inline_block" align="center"><br>
@@ -23,26 +42,46 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 <img alt="Spring" height="50" width="50"  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
 </div>
 
-## Development server
+<div align="center">
+  
+## Como rodar o Front-End do projeto
+  
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Clonar o repositório usando `git clone https://github.com/TatyanaMie/TatyanaMie-BlogPessoal-Frontend.git`
+- Abrir no VSCode a pasta em que o repositório foi clonado
+- Abrir o terminal com as teclas `Ctrl` + `'` ou `Ctrl` + `J`
+- Baixar s dependências com o comando `npm i` 
+- Utilizar o comando `ng serve` para rodar o programa em `http://localhost:4200/`
 
-## Code scaffolding
+<div align="center">
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# O Projeto
+  
+</div>
 
-## Build
+<div align="center">
+  
+### Login
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<img height="300 px" width= "700px" src= "https://user-images.githubusercontent.com/95664189/158504885-e960a2ad-0fec-409a-97be-5de23a4db7bf.png" >
+  
+### Cadastro
+<img height="300 px" width= "700px" src= "https://user-images.githubusercontent.com/95664189/158504790-ceff94d6-a95a-471d-b7c8-7d4c49d87a52.png" >
+  
+### Inicio
+<img height="600 px" width= "700px" src= "https://user-images.githubusercontent.com/95664189/158506242-67832991-8478-4e43-9ddb-54fe6c04dbe9.png" >
+  
+### Nova postagem
+<img height="300 px" width= "700px" src= "https://user-images.githubusercontent.com/95664189/158506355-7bf106e1-99b7-4e69-b09c-9cb5850a14f3.png" >
+  
+### Cadastrar/editar/apagar um tema
+<img height="350 px" width= "700px" src= "https://user-images.githubusercontent.com/95664189/158506550-ecfed7d7-d0ac-459f-942f-2212257e9d51.png" >
+  
+### Editar as informações do usuário
+<img height="350 px" width= "700px" src= "https://user-images.githubusercontent.com/95664189/158506821-0d91923c-4c5e-4a1d-922a-af3a409a4871.png" >
 
-## Running unit tests
+</div>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
