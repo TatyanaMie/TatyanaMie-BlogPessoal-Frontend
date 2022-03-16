@@ -51,7 +51,7 @@ Também é possível editar as informações do usuário por meio do ícone do m
 - Clonar o repositório usando `git clone https://github.com/TatyanaMie/TatyanaMie-BlogPessoal-Frontend.git`
 - Abrir no VSCode a pasta em que o repositório foi clonado
 - Abrir o terminal com as teclas `Ctrl` + `'` ou `Ctrl` + `J`
-- Baixar s dependências com o comando `npm i` 
+- Baixar as dependências com o comando `npm i` 
 - Utilizar o comando `ng serve` para rodar o programa em `http://localhost:4200/`
 
 <div align="center">
