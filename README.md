@@ -44,7 +44,7 @@ Também é possível editar as informações do usuário por meio do ícone do m
 
 <div align="center">
   
-# Como rodar o Front-End do projeto
+# Como rodar o Front-end do projeto
   
 </div>
 
