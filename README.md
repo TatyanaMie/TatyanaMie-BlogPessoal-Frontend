@@ -10,7 +10,7 @@
 # Sobre o projeto
   
 </div>
-O Blog Pessoal é um projeto desenvolvido no Bootcamp da Generation Brasil, com o desenvolvimento tanto do Front-end quanto do Back-end (https://github.com/TatyanaMie/TatyanaMie-BlogPessoal-Backend).
+O Blog Pessoal é um projeto desenvolvido no Bootcamp da Generation Brasil, com o desenvolvimento tanto do Front-end quanto do Back-end (https://github.com/TatyanaMie/TatyanaMie-BlogPessoal-Backend-).
 No Blog é possível realizar o cadastro de um usuário, efetuar o login e realizar uma nova postagem vinculada a um tema.
 Caso não exista o tema desejado, é possível cadastrar um novo tema. 
 Na página inicial é possível visualizar todas as postagens (aba "Todas as postagens"), apenas as postagens do usuário logado (aba “Minhas postagens”) e as postagens por tema (aba “Postagem por temas”). 
